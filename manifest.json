@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram return direct button",
+  "version": "1.0",
+  "description": "Return button to instagram directs",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
